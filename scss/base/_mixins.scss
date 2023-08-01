@@ -1,0 +1,39 @@
+@use "./variables" as *;
+
+/**************** Container ***************/
+
+@mixin container {
+    
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    @media (max-width: 767px) {
+
+        padding: 0 1rem;
+    }
+    
+}
+
+
+/*************** Section *****************/
+
+@mixin section-padding {
+    
+    padding: 60px 0;
+
+    @media (max-width: 980px) {
+
+        padding: 40px 0;
+    }
+}
+
+
+
+
+
+
+/******************** Hover, Shadow, andere... *********************/
+
+

@@ -1,0 +1,17 @@
+@use "./../base/" as *;
+
+.section {
+
+    @include section-padding;
+
+    &__container {
+
+        @include container;
+    }
+
+}
+
+@media (max-width:1440px) {
+
+    
+}
